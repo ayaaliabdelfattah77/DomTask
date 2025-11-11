@@ -1,0 +1,41 @@
+/* div الرئيسي للكروت */
+#cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* كل كارت */
+.card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin: 10px 0 5px;
+  font-size: 1.7rem;
+}
+
+.card p {
+  font-size:17px;
+  color: #333;
+}
+
